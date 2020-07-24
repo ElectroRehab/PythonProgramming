@@ -1,0 +1,16 @@
+# This is a ticket purchase application.
+#
+# First, ask the user for the ticket price.
+# (This should include dollars and cents.)
+# Display "What is the ticket price? ($0.00)"
+print('What is the ticket price? ($0.00)')
+# User enters ticket price
+tic_Price = float(input('Enter here:'))
+# Next, ask the user for the number of tickets.
+# Display "How many tickets do you need?"
+print('How many tickets do you need?')
+tic_Total = int(input('Enter here:'))
+# Finally, tell the user the total ticket price.
+grand_Total = tic_Price * tic_Total
+# Display "Your total cost of tickets is"
+print('Your total cost of tickets is', '$', format(grand_Total, '.2f'))
