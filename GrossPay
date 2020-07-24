@@ -1,0 +1,20 @@
+# Ask user question about name
+# Display "What is your name?"
+print('What is your name?')
+# Input name
+name = input('Enter Your Name Here:')
+# Ask user question about hourly pay rate.
+# Display "What is your hourly pay rate?"
+print('What is your hourly pay rate?')
+# Input Pay Rate
+pay_Rate = float(input('Enter Pay Rate Here:'))
+# Ask user question about hours worked.
+# Display "How many hours did you work?"
+print('How many hours did you work?')
+# Input Hours Worked
+hours_Worked = float(input('Enter Hours Worked Here:'))
+# Calculate Gross Pay
+gross_Pay = pay_Rate * hours_Worked
+# Display "Your Gross Pay is:"
+# Display results
+print(name,', your Gross Pay is: $',format(gross_Pay, '.2f'))
