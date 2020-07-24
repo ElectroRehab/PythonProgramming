@@ -1,0 +1,24 @@
+#//Greet the user by name
+#
+#// Declare variables
+#Declare String name
+#Declare Integer age
+#
+#// Ask user for their name
+#Display "What's your name?"
+print('What is your name?:')
+#Input name
+name = input()
+#
+#// Ask age
+print('What is your age?')
+#Display "What is your age?"
+#Input age
+age = int(input())
+#// Calculate new age
+#Set age = age +1
+age = age + 1
+#
+#// Display the output
+#Display "Hello,", name, 'soon you will be", age
+print('Hello,', name, '\nSoon you will be', age)
