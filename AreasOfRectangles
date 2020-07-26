@@ -1,0 +1,19 @@
+#
+#Input length & width information of rectangle 1.
+length1 = float(input('Rectangle 1 - Total Length in Meters: '))
+width1 = float(input('Rectangle 1 - Total Width in Meters: '))
+#Input length & width information of rectangle 2.
+length2 = float(input('Rectangle 2 - Total Length in Meters: '))
+width2 = float(input('Rectangle 2 - Total Width in Meters: '))
+#Calculate the area of each rectangle.
+convertarea1 = length1 * width1
+convertarea2 = length2 * width2
+#Diplays <, >, =, & the total area calculations of each rectangle.
+if convertarea1 > convertarea2:
+    print('Rectangle 1 has the greater area with:', format(convertarea1, ','), 'Meters'),
+    print('While the area of Rectangle 2 is only:', format(convertarea2, ','), 'Meters')
+elif convertarea2 > convertarea1:
+    print('Rectangle 2 has the greater area with:', format(convertarea2, ','), 'Meters'),
+    print('While the area of Rectangle 1 is only:', format(convertarea1, ','), 'Meters')
+else:
+    print('Rectangles 1 & 2 have the same area of:', format(convertarea1, ','), 'Meters')
