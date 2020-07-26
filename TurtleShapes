@@ -1,0 +1,28 @@
+#commands for importing information into coding
+import turtle
+turtle.shape("turtle")          # Cursor in the shape of the turtle    
+turtle.color("green")           # Color of the turtle and trail
+turtle.bgcolor("SandyBrown")    # Color of the ground
+
+#commands for telling turtle where to go 
+
+for i in [0,1,2]:
+    turtle.forward(50)    # Tell turtle to move forward by 50 units
+    turtle.left(90)       # Tell turtle to turn left by 90 degrees
+
+turtle.forward(50)        # Tell turtle to move forward by 50 units
+turtle.right(90)          # Tell turtle to turn right by 90 degrees
+
+for i in [0,1]:
+    turtle.forward(80)    # Tell turtle to move forward by 80 units
+    turtle.right(120)     # Tell turtle to turn right by 120 degrees
+
+turtle.forward(80)        # Tell turtle to move forward by 80 units
+
+for i in [0,1,2]:
+    turtle.right(360)     # Tell turtle to turn right by 360 degrees
+
+turtle.right(210)    
+ 
+# end commands
+turtle.exitonclick()      # Wait for user to close window
