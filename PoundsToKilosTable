@@ -1,0 +1,12 @@
+# Kilogram Formula.                                 # <---Info.
+kilo = 2.2046                                       # Kilo conversion variable.
+# Uniform calculation sentence results.             # <---Info.
+for pounds in [100]:                                # 100 pound conversion info
+    print(pounds, 'pounds(lb) =',                   # 100 pound conversion info
+          round(pounds/kilo, 4), ' kilograms(kg)')  # 100 pound conversion info
+for pounds in range(110, 230, 10):                  # 110-130 pound conversion by 10's
+    print(pounds, 'pounds(lb) =',                   # 110-130 pound conversion by 10's
+          round(pounds/kilo, 4), ' kilograms(kg)')  # 110-130 pound conversion by 10's
+for pounds in range(230, 310, 10):                  # 230-300 pound conversion by 10's
+    print(pounds, 'pounds(lb) =',                   # 230-300 pound conversion by 10's
+          round(pounds/kilo, 4), 'kilograms(kg)')   # 230-300 pound conversion by 10's
