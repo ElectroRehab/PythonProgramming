@@ -1,0 +1,40 @@
+#commands for importing information into coding
+import turtle
+turtle.shape("turtle")          # Cursor in the shape of the turtle    
+turtle.color("green")           # Color of the turtle and trail
+turtle.bgcolor("SandyBrown")    # Color of the ground
+turtle.pensize(4)               # Size of the turtle trail
+
+#commands for telling turtle where to go 
+turtle.right(90)
+
+for i in [0,1,2,3,4,5,6,7]:
+    turtle.forward(10)  # Tell turtle to move forward by 10 units
+    turtle.left(22.5)   # Tell turtle to turn right by 22.5 degrees
+
+turtle.forward(60)      # Tell turtle to move forward by 60 units
+turtle.left(90)         # Tell turtle to turn left by 90 degrees
+turtle.forward(40)      # Tell turtle to move forward by 40 units
+turtle.right(180)       # Tell turtle to turn right by 180 degrees
+turtle.forward(80)      # Tell turtle to move forward by 80 units
+turtle.penup()          # Tell turtle to stop making a path
+turtle.forward(60)      # Tell turtle to move forward by 60 units
+turtle.right(90)        # Tell turtle to turn right by 90 degrees
+turtle.forward(80)      # Tell turtle to move forward by 80 units
+turtle.right(270)       # Tell turtle to turn right by 270 degrees
+turtle.pendown()        # Tell turtle to restart path
+turtle.left(130)        # Tell turtle to turn left by 130 degrees
+turtle.forward(65)      # Tell turtle to move forward by 65 units
+turtle.right(90)        # Tell turtle to turn right by 90 degrees
+turtle.forward(50)      # Tell turtle to move forward by 50 units
+turtle.left(180)        # Tell turtle to turn left by 180 degrees
+turtle.forward(50)      # Tell turtle to move forward by 50 units
+turtle.left(50)         # Tell turtle to turn left 50 degrees
+turtle.forward(50)      # Tell turtle to move forward by 40 units
+turtle.right(180)       # Tell turtle to turn right by 180 degrees
+turtle.forward(85)      # Tell turtle to move forward by 80 units
+turtle.left(90)         # Tell turtle to turn left by 90 degrees
+for i in [0,1,2]:
+    turtle.right(360)   # Tell turtle to turn to the right 360 degrees
+# end commands
+turtle.exitonclick()    # Wait for user to close window
