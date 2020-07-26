@@ -1,0 +1,10 @@
+#
+# Calories.                         # <---Info.
+calo = 5                            # Calories burned per minute.
+# Calculations.                     # <---Info.
+for time in[20, 30, 45]:            # Loop for variable 'time' (20, 30, & 45 minutes).
+    print('In', time,               # Start of sentence with loop variable 'time'.
+          'minutes of working out ' # ||Continued sentence||.
+          'on a treadmill, you will'# ||Continued sentence||.
+          ' have burned',           # ||Continued sentence||.
+          (time*calo), 'calories.') # calories burned in total.
