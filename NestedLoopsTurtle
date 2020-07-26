@@ -1,0 +1,16 @@
+#Import turtle              # <---Info---
+import turtle               # Coding to import turtle cursor
+turtle.color("red")         # Color of the cursor and trail
+turtle.bgcolor("black")     # Color of the background
+turtle.pensize(2)           # Size of the cursor trail
+turtle.speed(9999)          # Speed of the cursor
+#Begin loop                 # <---Info---
+for i in range(3):          # Loop for cursor
+    for i in range(6):     # Loop for cursor
+        turtle.forward(60)  # Direction 1 for loop
+        turtle.right(100)   # Direction 2 for loop
+#Move cursor                # <---Info---
+turtle.penup()              # Pen-Up from drawing
+turtle.left(60)             # Direction 1 for end location
+turtle.forward(60)          # Direction 2 for end location
+turtle.pendown()            # Pen-Down to end drawing
