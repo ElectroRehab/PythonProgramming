@@ -1,0 +1,6 @@
+#Creating the ability to input desired weight in pounds.
+lbs = float(input('Enter pounds (lbs): '))
+#Calculate the conversion from pounds to kilograms.
+convert = lbs/2.2046
+#Diplay pounds to kilogram conversion answer.
+print(format(convert, ',.4f'), 'Kilograms (kg)')
