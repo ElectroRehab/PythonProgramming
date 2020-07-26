@@ -1,0 +1,21 @@
+# This program converts feet to inches.
+feet_to_inches = 12
+# The main function gets a distance in feet and
+# calls the show_feet function to convert it.
+def main():
+    # Get the distance in feet.
+    ft = int(input('Enter a distance in feet: '))
+    # Display the distance converted to feet.
+    show_feet(ft)
+# The show_feet function converts the parameter 'ft'
+# from feet to inches and displays the result.
+def show_feet(ft):
+    # Calculate inches.
+    inches = ft * feet_to_inches
+    # Display the inches.
+    if inches <= 12:
+        (print(ft, 'foot equals', inches, 'inches.'))
+    if inches >= 13:
+        (print(ft, 'feet equals', format(inches, ','), 'inches.'))
+# Call the main function.
+main()
