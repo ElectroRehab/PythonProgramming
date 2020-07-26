@@ -1,0 +1,47 @@
+#
+#Instructions Area.
+print('Choose a color.')
+print('Type 1 for Blue')
+print('Type 2 for Red')
+print('Type 3 for Yellow')
+#First color choices.
+Color1 = int(input('Choose your 1st color:' ))
+while Color1 >= 4:
+    print('Please try again.')
+    Color1 = int(input('Choose your 1st color:' ))
+if Color1 == 1:
+    print('You have chosen blue to combine')
+if Color1 == 2:
+    print('You have chosen red to combine')
+if Color1 == 3:
+    print('You have chosen yellow to combine')
+#Second color choices.
+Color2 = int(input('with your second choice of:' ))
+while Color2 >= 4:
+    print('Please try again.')
+    Color2 = int(input('with your second choice of:' ))
+if Color2 == 1:
+    print('blue, to create')
+if Color2 == 2:
+    print('red, to create')
+if Color2 == 3:
+    print('yellow, to create')
+#Formula for calculations of results.
+mixed = Color1 * Color2
+#Results for color combinations.
+if mixed == 2:
+    print('PURPLE!!!')
+if mixed == 3:
+    print('GREEN!!!')
+if mixed == 6:
+    print('ORANGE!!!')
+#If people choose the
+if mixed == 1:
+    print('the wonderful color of BLUE!!! (Which should not be a surprise...)')
+    print('Please restart and try two different colors next time.')
+if mixed == 4:    
+    print('the wonderful color of RED!!! (Which should not be a surprise...)')
+    print('Please restart and try two different colors next time.')
+if mixed == 9:    
+    print('the wonderful color of YELLOW!!! (Which should not be a surprise...)')
+    print('Please restart and try two different colors next time.')
