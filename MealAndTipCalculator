@@ -1,0 +1,10 @@
+#Creating the ability to input total cost of meal.
+meal = float(input('Enter total cost of meal: '))
+#Calculate the tip percentages for the total cost of the meal.
+convert15 = (meal*.15)
+convert18 = (meal*.18)
+convert20 = (meal*.2)
+#Diplay tip amounts.
+print('15% = $', format(convert15, ',.2f'))
+print('18% = $', format(convert18, ',.2f'))
+print('20% = $', format(convert20, ',.2f'))
