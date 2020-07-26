@@ -1,0 +1,39 @@
+#Intro to the program                                                       #<---Info---
+print('     ----------------------------------------------------')          #Intro
+print('     ----------------------------------------------------')          #Intro
+print('     ----------------------------------------------------')          #Intro
+print('     |   Enter a postive number to add to the series    |')          #Intro
+print('     |                  ------OR------                  |')          #Intro
+print('     |    Enter a negative number to end the series     |')          #Intro
+print('     ----------------------------------------------------')          #Intro
+print('     ----------------------------------------------------')          #Intro
+print('     ----------------------------------------------------')          #Intro
+print('')                                                                   #Intro
+#total accumulator                                                          #<---Info---
+total = 0                                                                   #Number to add from
+#Initial input information                                                  #<---Info---
+negpos = float(input('            Enter a Postive(+) number to continue:')) #Begin with a postive input
+#What if scenerio                                                           #<---Info---
+while negpos > -1:                                                          #Loop start for negpos variable
+    total = total + negpos                                                  #total sum variables
+    print('     ----------------------------------------------------')      #Picture
+    print('     ----------------------------------------------------')      #Continuance input text
+    print('     ----------------------------------------------------')      #Continuance input text
+    print('     |        Enter a postive number to continue        |')      #Continuance input text
+    print('     |                  ------OR------                  |')      #Continuance input text
+    print('     |         Enter a negative number to stop          |')      #Continuance input text
+    print('     ----------------------------------------------------')      #Continuance input text
+    print('     ----------------------------------------------------')      #Continuance input text
+    print('     ----------------------------------------------------')      #Continuance input text
+    print('')                                                               #Continuance input text
+    negpos = float(input('              Postive(+) or Negative(-) input:')) #Continue or End series input
+#Final Results                                                              #<---Info---
+print('     ----------------------------------------------------')          #Finalized results input text
+print('     ----------------------------------------------------')          #Finalized results input text
+print('     ----------------------------------------------------')          #Finalized results input text
+print('     |                    Your series                   |')          #Finalized results input text
+print('                       >>>', format(total, ',.0f'), '<<<       ')    #Final Total in Series
+print('     |                      results:                    |')          #Finalized results input text
+print('     ----------------------------------------------------')          #Finalized results input text
+print('     ----------------------------------------------------')          #Finalized results input text
+print('     ----------------------------------------------------')          #Finalized results input text
