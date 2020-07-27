@@ -1,0 +1,31 @@
+# constants
+import random
+again = 'y'
+number = random.randint (1, 100)
+number2 = random.randint (1, 100)
+def main():
+    number
+
+    user = int(input('Choose a number '))
+    while number > user:
+        print('Too low, try again!')
+        user = int(input('Choose a number '))
+    while number < user:
+        print('Too high, try again!')
+        user = int(input('Choose a number '))
+    while number == user:
+        print('Congrats, you have chosen the correct number of', number)
+        input('Do you want to play again? (y=yes): ')
+        while again == 'y' or again == 'Y':
+            number2
+            print(number2)
+            user = int(input('Congrats - choose another number '))
+        while number2 > user:
+            print('Too low, try again!')
+            user = int(input('Choose a number '))
+        while number2 < user:
+            print('Too high, try again!')
+            user = int(input('Choose a number '))
+        while number2 == user:
+            print('Congrats, you have chosen the correct number of', number2)
+main()
